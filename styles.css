@@ -16,3 +16,11 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+.square {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: white;
+    border: solid 2px black;
+}
