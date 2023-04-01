@@ -28,3 +28,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 15px solid blue;
+    box-sizing: border-box;
+}
