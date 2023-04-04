@@ -10,9 +10,13 @@ infoDisplay.textContent = "Circle goes first"
 
 function createBoard() {
     startCells.forEach((cell, index) => {
-        const cellElement = document.createElement("div")
+        // create div for every element in the array
+        const cellElement = document.createElement("div") 
+        // add class '.square' to the element
         cellElement.classList.add("square")
+        // call function addGo when clicked
         cellElement.addEventListener("click", addGo)
+        // add div element to gameboard
         gameBoard.append(cellElement)
     })
 }
